@@ -1,0 +1,65 @@
+Creating Your Certificate of Registration Webpage
+Objective:
+In this hands-on activity, you will create a Certificate of Registration webpage using HTML and CSS. This exercise will reinforce your understanding of fundamental web development concepts, including structuring content with HTML and styling it with CSS.
+
+Requirements:
+Text Editor: Use a basic text editor like Notepad (Windows), TextEdit (Mac), or any code editor of your choice (Visual Studio Code, Sublime Text, etc.).
+Web Browser: Chrome, Firefox, Safari, or any modern web browser.
+version control (Git) for tracking changes
+Activity Steps:
+Step 1: Set Up Your Project Create a new folder on your computer desktop named "CertificateOfRegistration." Inside this folder, create two files: index.html and styles.css.
+Step 2: Design the Certificate Structure (index.html) Open index.html in your text editor. Start with the basic HTML structure:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Certificate of Registration</title>
+</head>
+<body>
+    <!-- Your certificate content will go here -->
+</body>
+</html>
+Step 3: Design the Certificate Layout (styles.css) Open styles.css in your text editor. Begin with CSS reset and basic styling:
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.certificate {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Add more styles to customize your certificate */
+Step 4: Design Your Certificate Content (index.html) Inside the tag of index.html, create the structure of your certificate. You can include elements like <h1>, <p>, and <div> to create a visually appealing certificate.
+
+Step 5: Test Your Webpage Save both index.html and styles.css. Double-click index.html to open it in your web browser. You should see your Certificate of Registration webpage.
+
+Step 6: Enhance and Customize Experiment with different HTML elements and CSS styles to enhance the look and feel of your certificate. You can add images, borders, colors, and more to make it unique.
+
+Step 7: Validate your webpage using the official w3c validator, and fix any errors that appears in your HTML code. Include a screenshot of the output of the validator in your submission
+
+Step 8: create a short video presentation of your code, in your presentation discuss the challenges you encounter in making an your COR as a webpage and how did you solve it (using some tricks or workarounds). also discuss if you were to make it a responsive site (can be viewed easily in mobile devices) how will it looks like
+
+Deliverables:
+html/css and assets of your COR Webpage
+copy of your actual COR
+screenshot of the validator result for your webpage
+Video explainer (not more than 300 Mb in size) include it in the rar file
+the above files must be included in the repository
+Submission
+all changes must be tracked using Git
+github repository link will be required for the submission (submission link will be provided in our IT11 google classroom)
+
+Remember, the key to this activity is understanding the relationship between HTML and CSS and how they work together to create visually appealing webpages.
