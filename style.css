@@ -1,5 +1,5 @@
 body {
-    min-width: 800px;
+    min-width: 1000px;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -60,7 +60,7 @@ table, tr th {
     border-spacing: 0px;
     height: 40px;
 }
-td{
+td{ 
     padding: 15px;
     text-align: left;
 }
@@ -75,5 +75,13 @@ table{
     height: 100%;
 }
 span {
-    font-weight: bold;
+    font-weight: bold;  
 }
+.b_top{
+    border-top: 3px solid;
+}
+.b_bot {
+    border-bottom: 1px solid black;
+}
+
+
