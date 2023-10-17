@@ -42,10 +42,10 @@ h4{
 #cert_head{
     margin: 50px;
     text-align: center;
-    margin-left: 13%;
+    margin-left: 12%;
     text-transform:capitalize;
-    letter-spacing: 20px;
-    font-weight: 900;
+    letter-spacing: 18px;
+    font-weight:bolder;
 }
 #reg_num{
     margin: 0 0 15px 40px;
@@ -54,11 +54,15 @@ h4{
 th{
     background-color: rgb(202, 207, 248);
 }
-table, tr th {
-    text-align: center;
+th{
+    border: 1px solid black;
+}
+table {
     border: 1px solid black;
     border-spacing: 0px;
-    height: 40px;
+}
+.table1 td{
+    text-align: left;
 }
 td{ 
     padding: 15px;
@@ -69,10 +73,10 @@ td{
     border-right: none;
 }
 
-
 table{
+    border-collapse: collapse;
+    border-spacing: 0;
     width: 100%;
-    height: 100%;
 }
 span {
     font-weight: bold;  
@@ -81,17 +85,21 @@ span {
     border-top: 3px solid;
 }
 .b_bot {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 p{
     font-size: medium;
     font-style: italic;
     text-align: start;
 }
+.table2 td{
+    text-align: left;
+}
 .table2{
-    margin: 0;
-    padding: 0;
-    letter-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 20px;
+    width: 100%;
     font-size: small;
 }
 .b_side{
@@ -99,11 +107,26 @@ p{
     border-left: 1px solid black;
 }
 .table3{
-    width: fit-content;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
     border: none;
+}
+.table3 td{
+    padding-left: 60px;
 }
 .color{
     background-color: red;
+}
+.text_style{
+    font-size: 20px;
+}
+th, td{
+    padding: 5px;
+    text-align: center;
+}
+.blank_space{
+    width: 300px;
+    height: 100px;
+}
+.space{
+    padding: 0 20px 0 20px;
 }
